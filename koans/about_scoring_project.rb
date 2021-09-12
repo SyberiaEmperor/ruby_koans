@@ -37,8 +37,8 @@ def score(dice)
   dice.each do |el|
     num_counter[el] += 1
   end
-  puts "\n"
-  puts num_counter
+  #puts "\n"
+  #puts num_counter
   score_result = 0;
   temp = 0
 
